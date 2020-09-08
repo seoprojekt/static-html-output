@@ -46,6 +46,8 @@ class DBSettings {
             'crawl_increment',
             'completionEmail',
             'completionWebhook',
+            'firebaseProjectName',
+            'firebaseToken',
             'delayBetweenAPICalls',
             'deployBatchSize',
         ];

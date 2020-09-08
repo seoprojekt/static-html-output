@@ -106,6 +106,22 @@
             <?php $tpl->displayTextfield($this, 'completionWebhook', 'http://mystaticsite.com', '', ''); ?><br>
         </td>
     </tr>
+    <tr>
+        <th scope="row">
+            <label for="firebaseProjectName">Firebase Project Name</label>
+        </th>
+        <td>
+            <?php $tpl->displayTextfield($this, 'firebaseProjectName', 'Firebase Project Name', '', ''); ?><br>
+        </td>
+    </tr>
+    <tr>
+        <th scope="row">
+            <label for="firebaseToken">Firebase Token</label>
+        </th>
+        <td>
+            <?php $tpl->displayTextfield($this, 'firebaseToken', 'Firebase Token', '', 'password'); ?><br>
+        </td>
+    </tr>
       <tr>
         <th scope="row">
           <label for="delete_deploy_cache_button">Delete deploy cache</label>
