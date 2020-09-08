@@ -45,6 +45,7 @@ class DBSettings {
         $key_sets['advanced'] = [
             'crawl_increment',
             'completionEmail',
+            'completionWebhook',
             'delayBetweenAPICalls',
             'deployBatchSize',
         ];
